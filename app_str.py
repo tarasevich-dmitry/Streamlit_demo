@@ -17,12 +17,7 @@ st.write('##')
 st.write("It is transformed DF:")
 
 
-
 # Set CSS properties for th elements in dataframe
-td_props = [
-        ('front-size', '15px')
-        ]
-
 th_props = [
         ('font-size', '15px'),
         ('text-align', 'center'),
@@ -33,8 +28,7 @@ th_props = [
 
 #Set table styles
 styles = [
-        dict(selector="th", props=th_props),
-        dict(selector="td", props=td_props)
+        dict(selector="th", props=th_props)
         ]
 
 #Set colormap equal to seaborn light green color palette
